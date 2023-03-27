@@ -46,18 +46,18 @@
     <main class="movie-container">
       <div class="movie-select">
         <label for="">Select a movie :</label>
-        <select name="" id="">
-          <option value="">Movie one</option>
-          <option value="">Movie two</option>
-          <option value="">Movie three</option>
-          <option value="">Movie four</option>
+        <select name="" id="options" class="options">
+          <option value="120" class="options">Ant-Man and the Wasp: Quantumania (₹120)</option>
+          <option value="150" class="options">Dada (₹150)</option>
+          <option value="200" class="options">Ariyavan (₹200)</option>
+          <option value="250" class="options">Vaathi (₹250)</option>
         </select>
       </div>
 
 
        <div class="seats-detail">
         <div class="details">
-          <div class="seat non-selected"></div>
+          <div class="seat not-available"></div>
           <small>N/A</small>
         </div>
         <div class="details">
@@ -74,68 +74,83 @@
       
       <div class="seat-container">
         <div class="row">
-          <div class="seat"></div>
-          <div class="seat"></div>
-          <div class="seat"></div>
-          <div class="seat"></div>
-          <div class="seat"></div>
-          <div class="seat"></div>
-          <div class="seat"></div>
-          <div class="seat"></div>
+          <div class="seat">1</div>
+          <div class="seat">2</div>
+          <div class="seat">3</div>
+          <div class="seat">4</div>
+          <div class="seat">5</div>
+          <div class="seat">6</div>
+          <div class="seat">7</div>
+          <div class="seat">8</div>
+          <div class="seat">9</div>
+          <div class="seat">10</div>
         </div>
         <div class="row">
-          <div class="seat"></div>
-          <div class="seat"></div>
-          <div class="seat"></div>
-          <div class="seat"></div>
-          <div class="seat"></div>
-          <div class="seat"></div>
-          <div class="seat"></div>
-          <div class="seat"></div>
+          <div class="seat">1</div>
+          <div class="seat">2</div>
+          <div class="seat">3</div>
+          <div class="seat">4</div>
+          <div class="seat">5</div>
+          <div class="seat">6</div>
+          <div class="seat">7</div>
+          <div class="seat">8</div>
+          <div class="seat">9</div>
+          <div class="seat">10</div>
+        </div>
+        <div class="seat-space">
+          
         </div>
         <div class="row">
-          <div class="seat"></div>
-          <div class="seat"></div>
-          <div class="seat"></div>
-          <div class="seat"></div>
-          <div class="seat"></div>
-          <div class="seat"></div>
-          <div class="seat"></div>
-          <div class="seat"></div>
+          <div class="seat">1</div>
+          <div class="seat">2</div>
+          <div class="seat">3</div>
+          <div class="seat">4</div>
+          <div class="seat">5</div>
+          <div class="seat">6</div>
+          <div class="seat">7</div>
+          <div class="seat">8</div>
+          <div class="seat">9</div>
+          <div class="seat">10</div>
         </div>
         <div class="row">
-          <div class="seat"></div>
-          <div class="seat"></div>
-          <div class="seat"></div>
-          <div class="seat"></div>
-          <div class="seat"></div>
-          <div class="seat"></div>
-          <div class="seat"></div>
-          <div class="seat"></div>
+          <div class="seat">1</div>
+          <div class="seat">2</div>
+          <div class="seat">3</div>
+          <div class="seat">4</div>
+          <div class="seat">5</div>
+          <div class="seat">6</div>
+          <div class="seat">7</div>
+          <div class="seat">8</div>
+          <div class="seat">9</div>
+          <div class="seat">10</div>
         </div>
         <div class="row">
-          <div class="seat"></div>
-          <div class="seat"></div>
-          <div class="seat"></div>
-          <div class="seat"></div>
-          <div class="seat"></div>
-          <div class="seat"></div>
-          <div class="seat"></div>
-          <div class="seat"></div>
+          <div class="seat">1</div>
+          <div class="seat">2</div>
+          <div class="seat">3</div>
+          <div class="seat">4</div>
+          <div class="seat">5</div>
+          <div class="seat">6</div>
+          <div class="seat">7</div>
+          <div class="seat">8</div>
+          <div class="seat">9</div>
+          <div class="seat">10</div>
         </div>
         <div class="row">
-          <div class="seat"></div>
-          <div class="seat"></div>
-          <div class="seat"></div>
-          <div class="seat"></div>
-          <div class="seat"></div>
-          <div class="seat"></div>
-          <div class="seat"></div>
-          <div class="seat"></div>
+          <div class="seat">1</div>
+          <div class="seat">2</div>
+          <div class="seat">3</div>
+          <div class="seat">4</div>
+          <div class="seat">5</div>
+          <div class="seat">6</div>
+          <div class="seat">7</div>
+          <div class="seat">8</div>
+          <div class="seat">9</div>
+          <div class="seat">10</div>
         </div>
       </div>
 
-      <div>The selected tickets are <span class="count">3</span> and the total price is <span class="price">₹ 250</span> </div>
+      <div class="ticket-description">Selected tickets are <span class="count" id="count">3</span> and the total price is <span class="price" id="price">₹250</span> </div>
 
     </main>
 
